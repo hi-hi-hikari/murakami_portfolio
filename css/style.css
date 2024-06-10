@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* ヘッダー＆メインビジュアル */
+.main{
+  position: relative;
+}
+.main_visual_circle{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 100%;
+  max-width: 12.811%;
+}
+/* SCROLL */
+.scrolldown1 {
+  text-align: center;
+  position: relative;
+  font-size: 16px;
+  line-height: 70px;
+  margin-top: 50px;
+}
+.scrolldown1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -50%;
+  width: 1px;
+  height: 50px;
+  margin: auto;
+  background-color: #45465a;
+}
+/* ナビゲーションメニュー */
+.header_inner{
+  margin-top: 150px;
+}
+/* about */
+#about {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.about {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+#about h3 {
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+.about p {
+  max-width: 450px;
+  line-height: 2.5;
+  font-size: 16px;
+}
+/* works */
+#works {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+#works ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+#works ul li p {
+  margin-top: 25px;
+  color: #ac8951;
+}
+#works h3 {
+  margin-top: 10px;
+}
+/* お問い合わせ */
+hr.style1{
+  border-top: 1px solid #ac8951;
+  max-width: 80%;
+  }
+.c-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.c-form__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+.c-form__label,
+.c-form__input {
+  padding: 10px;
+}
+.c-form__label {
+  width: 90%;
+  font-size: 18px;
+}
+.c-form__input {
+  width: 90%;
+  font-size: 16px;
+  border: solid 1px #45465a;
+}
+.c-form__input:focus-visible {
+  outline: #ac8951 auto 1px;
+}
+.c-form__required {
+  padding: 5px 5px;
+  margin: 0 0 0 18px;
+}
+textarea.c-form__input {
+  height: 160px;
+}
+.c-form__submit {
+  text-align: center;
+}
+.c-form__submit button {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ac8951;
+  border: solid 1px #ac8951;
+  padding: 12px 80px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.c-form__submit button:hover {
+  color: #45465a;
+  background-color: transparent;
+}
+/* TOPへ戻るボタン */
+.toTOP{
+  position: fixed;
+  bottom: 100px;
+  right: 135px;
+}

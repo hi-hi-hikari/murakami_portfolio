@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* フォントの読み込み */
+/* 日本語 */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* ↓欧文 */
+.main_visual h1,
+.subtitle h2,
+.header_nav ul li,
+.footer_innner ul li {
+  font-family: linotype-didot-headline, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* 全体背景色 */
+.wrapper {
+  background-color: #e3dbd5;
+}
+/* ナビゲーションメニュー */
+.header_inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-right: 7.32%;
+  padding-left: 7.32%;
+  width: 100%;
+  z-index: 2;
+}
+.header_nav ul{
+  display: flex;
+  gap: 77px;
+}
+.header_logo{
+  width: 30px;
+}
+.header_nav li{
+  font-size: 20px;
+}
+/* subtitle共通 */
+.subtitle {
+  margin-top: 250px;
+  margin-bottom: 100px;
+}
+.subtitle h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.subtitle p {
+  text-align: center;
+  font-size: 16px;
+}
+/* indexとthanks共通 */
+.main_visual{
+  padding-top: 50px;
+}
+.main_visual h1{
+  width: 100%;
+  max-width: 73.206%;
+  margin: 0 auto;
+}
+/* 矢印 */
+.dli-arrow-right {
+  display: inline-block;
+  vertical-align: middle;
+  color: #45465a;
+  line-height: 1;
+  position: relative;
+  width: 1em;
+  height: 0.1em;
+  background: currentColor;
+  margin-left: 20px;
+}
+.dli-arrow-right::before {
+  content: '';
+  width: 0.65em;
+  height: 0.65em;
+  border: 0.1em solid currentColor;
+  border-left: 0;
+  border-bottom: 0;
+  transform: rotate(45deg);
+  transform-origin: top right;
+  position: absolute;
+  top: 50%;
+  right: -0.05em;
+  box-sizing: border-box;
+}
+/* button */
+.button {
+  text-align: center;
+  margin-top: 100px;
+}
+.button a {
+  color: #45465a;
+  font-weight: bold;
+  border: 1px solid #ac8951;
+  padding: 24px 80px;
+  border-radius: 150px;
+  transition: .3s;
+}
+.button a:hover {
+  color: #fff;
+  background: #d4aeb9;
+  border: none;
+}
+/* footer */
+.footer_inner{
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  max-width: 500px;
+  margin-left: 21.961%;
+  margin-top: 200px;
+}
+.footer_logo {
+  width: 100px;
+  position: relative; 
+}
+.footer_logo::after {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin: 0 6rem;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #ac8951;
+}
+#footer li {
+  line-height: 50px;
+}
+#footer .note{
+  text-align: center;
+  margin-top: 100px;
+}

@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* about_me */
+#profile_block {
+  margin: 0 auto;
+}
+.profile_images{
+  position: relative;
+}
+.profile_image_myphoto {
+  max-width: 60%;
+  margin: 180px auto 0;
+  position: absolute;
+  top: 50px;
+  left: -40px;
+  position: relative;
+}
+.loop_text {
+  position: absolute;
+  top:60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.profile_container {
+  margin: 0 auto;
+  max-width: 42%;
+  position: relative;
+}
+.profile_container h1 {
+  text-align: center;
+  margin: 120px auto 50px;
+}
+.profile_text {
+  line-height: 2.5;
+  font-size: 16px;
+}
+.photo {
+  max-width: 200px;
+  margin-left: 70%;
+  position: absolute;
+  right: -30%;
+}
+/* SKILL */
+#skill_block ul {
+  display: flex;
+  justify-content:center;
+  gap: 80px;
+  max-width: 62.225%;
+  margin: 0 auto;
+}
+#skill_block img {
+  width: 130px;
+}
+#skill_block p {
+  line-height: 2;
+}
+#skill_block .skill_inner {
+  text-align: center;
+}
+#skill_block li {
+  position: relative;
+}
+#skill_block li ::after {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin: 0 40px;
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #ac8951;
+}
+/* STRENGTH */
+.strength_circle ul {
+  display: flex;
+  justify-content:center;
+  gap: 190px;
+  max-width: 62.225%;
+  margin: 300px auto;
+  text-align: center;
+}
+.strength_circle li{
+  width: 100%;
+  font-size: 22px;
+  font-weight: bold;
+}
+.strength_list ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  max-width: 87.847%;
+  margin: 0 auto;
+}
+.strength_list li {
+  width: 100%;
+}
+.strength_list h3 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.strength_list p {
+  font-size: 16px;
+  line-height: 2;
+}

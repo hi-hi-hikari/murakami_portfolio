@@ -1,0 +1,6 @@
+@charset "utf-8";
+.main_visual p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 2.5;
+}

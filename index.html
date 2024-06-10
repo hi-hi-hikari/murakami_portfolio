@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIKARU_PORTFOLIO</title>
+  <!-- cssの読み込み -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- フォントの読み込み -->
+  <link rel="stylesheet" href="https://use.typekit.net/ljn1gtn.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- header -->
+    <header id="header">
+      <div class="main">
+        <div class="main_visual">
+          <h1><img src="./img_pc/mainvisual.png"></h1>
+        </div>
+        <div class="main_visual_circle">
+          <img src="./img_pc/thankyouforcomming.png" alt="thankyouforcomming">
+        </div>
+        <div class="scrolldown1"><span>SCROLL</span></div>
+      </div>
+      <!-- nav -->
+      <div class="header_inner">
+        <div class="header_logo"><a href="./index.html"><img src="./img_pc/header_logo.png" alt="logo"></a></div>
+        <nav class="header_nav">
+          <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="subtitle">
+        <h2>ABOUT</h2>
+        <p>私のこと</p>
+      </div>
+      <div class="about">
+        <div class="about_image"><img src="./img_pc/about_myphoto1.png" alt="自己紹介写真1"></div>
+        <div>
+          <h3>HIKARU</h3>
+          <p>1990年生まれ、神奈川県在住。猫好きの30代です。<br>
+          大学卒業後、行政機関に勤務。Webデザインを学ぶきっかけとなった広報誌作成を5年間経験しました。<br>
+          情報を整理して分かりやすく表現することが楽しく、気が付けば本棚がデザインの参考図書一色に…。<br>
+          本格的にデザインの勉強をしたく、デザスタの受講を開始。<br>
+          日々、スキルアップに励み中です。
+          </p>
+        </div>
+      </div>
+      <!-- ボタン -->
+      <div class="button">
+        <a href="./about.html" class="btn"><span>VIEW MORE</span><span class="dli-arrow-right"></span></a>
+      </div>
+    </section>
+    <!-- WORKS -->
+    <section id="works">
+      <div class="subtitle">
+        <h2>WORKS</h2>
+        <p>制作物</p>
+      </div>
+      <div class="works_inner">
+        <ul>
+          <li><a href="./works/works_01.html"><div class="works_01"><img src="./img_pc/works01-50.jpg" alt="美容室Webサイト"><p class="title">Web</p><h3>美容室Webサイト</h3></div>
+          </a></li>
+          <li><a href=""><div class="works_02"><img src="./img_pc/works02-50.jpg" alt="HIKARU_PORTFOLIOサイト"><p class="title">Web</p><h3>HIKARU  PORTFOLIO</h3></div>
+          </a></li>
+          <li><a href=""><div class="works_03"><img src="./img_pc/works03-50.jpg" alt="ハンバーガー新商品告知バナーA"><p class="title">Banner</p><h3>ハンバーガー新商品告知バナーA</h3></div>
+          </a></li>
+        </ul>
+        <!-- ボタン -->
+        <div class="button">
+          <a href="./works.html" class="btn"><span>VIEW MORE</span><span class="dli-arrow-right"></span></a>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="subtitle">
+        <h2>CONTACT</h2>
+        <p>お問い合わせ</p>
+        <hr class="style1">
+      </div>
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd1SNxK6u_sRawJEVN5agArTZyHoj5gbL7RNkoiIsQmxyunHg/formResponse"  method="POST" target="hidden_iframe" 
+      onsubmit="submitted=true;" class="c-form">
+        <div class="c-form__item">
+          <label class="c-form__label" for="field-name"
+            >お名前<span class="c-form__required">*必須</span></label
+          >
+          <input
+            name="entry.1374176350"
+            class="c-form__input"
+            id="field-name"
+            placeholder="名字 名前"
+            type="text"
+            required="required"
+          />
+        </div>
+        <div class="c-form__item">
+          <label class="c-form__label" for="field-mail"
+            >メールアドレス<span class="c-form__required">*必須</span></label
+          >
+          <input
+            name="entry.894122883"
+            class="c-form__input"
+            id="field-mail"
+            placeholder="e-mail@address"
+            type="email"
+            required="required"
+          />
+        </div>
+        <div class="c-form__item">
+          <label class="c-form__label" for="field-message">お問い合わせ内容</label>
+          <textarea
+            name="entry.234957452"
+            class="c-form__input"
+            id="field-message"
+            placeholder="お問い合わせ内容を入力してください"
+          ></textarea>
+        </div>
+        <div class="c-form__submit">
+          <button type="submit">送信する
+          </button>
+        </div>
+      </form>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="footer_inner">
+        <div class="footer_logo"><img src="./img_pc/footer_logo.png" alt="logo"></div>
+        <ul>
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#cinract">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="note">
+        <small>&copy; HIKARU</small>
+      </div>
+    </footer>
+    <!-- TOPへ戻るボタン -->
+    <p class="toTOP">
+      <a href="#header"><img src="./img_pc/to_top_button.png"></a>
+    </p>
+  </div>
+  <!-- javascript読み込み -->
+  <script type="text/javascript">
+    let submitted = false;
+  </script>
+  <iframe
+      name="hidden_iframe"
+      id="hidden_iframe"
+      style="display: none"
+      onload="if(submitted){window.location='thanks.html';}"
+  ></iframe>
+</body>
+</html>
